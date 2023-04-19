@@ -16,7 +16,7 @@ import { ref,reactive } from 'vue'
 import NavMenu from "./navMenu.vue"
 </script>
 
-<style scoped lang='sess'>
+<style scoped lang='scss'>
 .container {
   height: 100%;
 }
