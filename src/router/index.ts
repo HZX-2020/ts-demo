@@ -10,6 +10,10 @@ const routes: Array<RouteRecordRaw> = [
     redirect: "/home",
   },
   {
+    path: "/index",
+    component: () => import("@/views/index/index.vue"),
+  },
+  {
     path: "/home",
     name: "home",
     component: () => import("@/components/layout/index.vue"),
